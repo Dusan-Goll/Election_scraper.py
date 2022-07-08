@@ -13,9 +13,9 @@ Before you run the project, you need to install a few libraries/packages listed 
 
 I recommend installation to new virtual environment for this project, via pip install manager:
 
-*$ pip3 --version
+*$ pip3 --version*
 
-*$ pip3 install -r requirements.txt
+*$ pip3 install -r requirements.txt*
 
 ## How to RUN the project
 
@@ -41,7 +41,7 @@ After executing the program you will recieve **output in csv file**.
 
 *$ python Election_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=8&xnumnuts=5204" "results_Rychnov nad Kněžnou.csv"*
 
-> **example of program processing:**
+> **Example of program processing:**
 
 CHECKING URL AND FILE NAME
 
@@ -57,7 +57,7 @@ DATA SUCCESSFULLY DOWNLOADED AND SAVED TO "results_Rychnov nad Kněžnou.csv"
 
 CLOSING Election_scraper.py
 
-> **a bit of output:**
+> **A bit of output:**
 
 code,town,voters,envelopes,valid votes,Občanská demokratická strana,Řád národa - Vlastenecká unie, . . . 
 
