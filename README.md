@@ -11,14 +11,12 @@ More here: [VOLBY.CZ - výsledky 2017](https://volby.cz/pls/ps2017nss/ps3?xjazyk
 ## Libraries installation
 Before you run the project, you need to install a few libraries/packages listed in **requirements.txt** 
 
-I recommend installation to new virtual environment for this project, via pip install manager:
-
-*$ pip3 --version*
-
-*$ pip3 install -r requirements.txt*
-
-## How to RUN the project
-
+I recommend installation to new virtual environment for this project, via pip install manager:  
+```
+*$ pip3 --version*  
+*$ pip3 install -r requirements.txt*  
+```
+## How to RUN the project  
 To run project in command prompt -> Election_scraper.py must be executed with 2 arguments:
 
 *$ python Election_scraper.py <selected_district_web_link> <file_name>*
